@@ -1,0 +1,26 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "this bonus project 5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravisingh007ravi/SelfExploreCronJobs.git"
+  },
+  "author": "Ravi Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravisingh007ravi/SelfExploreCronJobs/issues"
+  },
+  "homepage": "https://github.com/ravisingh007ravi/SelfExploreCronJobs#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.20"
+  }
+}
